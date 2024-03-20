@@ -1,0 +1,39 @@
+. {
+  margin: 0;
+  padding: ;
+}
+
+body {
+  background: radial-gradient(#0288d1, #01579b);
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-areas:
+    'aside header'
+    'aside main'
+    'aside footer';
+}
+
+aside {
+  grid-area: aside;
+  border: 5px solid yellow;
+  width: 300px;
+}
+
+header {
+  border: 5px solid orange;
+  grid-area: header;
+  width: 100%;
+}
+
+main {
+  border: 5px solid red;
+  width: 100%;
+  grid-area: main;
+}
+
+footer {
+  border: 5px solid green;
+  grid-area: footer;
+  width: 100%;
+}
