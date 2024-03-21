@@ -26,13 +26,15 @@ body {
 aside {
   grid-area: aside;
   width: 100%;
-  padding: 20px 0px 20px 0px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, .1);
 }
 
 aside h2 {
   color: #fff;
   margin-bottom: 20px;
   font-size: 1.5rem;
+
 
 }
 
@@ -55,12 +57,15 @@ header {
   color: #fff;
   font-weight: 200;
   font-size: 1rem;
+  background-color: rgba(255, 255, 255, .1);
   border-bottom: 1px solid white;
+  padding: 0px 20px;
 }
 
 main {
   width: 100%;
   grid-area: main;
+  background-color: rgba(255, 255, 255, .1);
 }
 
 footer {
@@ -69,7 +74,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: bold;
   font-size: 1rem;
   color: #FFF;
+  background-color: rgba(255, 255, 255, .1);
 }
